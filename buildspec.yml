@@ -34,7 +34,7 @@ phases:
       - pwd
       - ls
       - pip3 install -r requirements.txt
-      - pytest
+      - python3 pytest 
 artifacts:
   files: build.json
 
